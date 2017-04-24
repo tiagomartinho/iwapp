@@ -44,7 +44,6 @@
 		6B961A071D1836B700F23043 /* ios-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B961A021D1836B700F23043 /* ios-640x1136.png */; };
 		6B961A081D1836B700F23043 /* ios-750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B961A031D1836B700F23043 /* ios-750x1334.png */; };
 		6B961A091D1836B700F23043 /* ios-1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B961A041D1836B700F23043 /* ios-1242x2208.png */; };
-		6BC5085B1DD339AC00E6578B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BC5085A1DD339AC00E6578B /* GoogleService-Info.plist */; };
 		6BC5085C1DD339EA00E6578B /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8AD0061D68628A006D511F /* libRNFIRMessaging.a */; };
 		796CCFEF89424BDA854BF5B4 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC0FCEFE50423B82521737 /* Ionicons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -52,6 +51,7 @@
 		B41FC66EB05F44CF9491E3FA /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52B822D926674D8592D56BEB /* Entypo.ttf */; };
 		BA7F3DAAD40D4728AF0632F8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33BA5D9E384E4A5AAD32C855 /* FontAwesome.ttf */; };
 		E0169840BD4981604E4F0392 /* Pods_iwappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D6DB457DB10E57DD4CB8BE /* Pods_iwappTests.framework */; };
+		F1AE68791EAE4FBA0008DA51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1AE68781EAE4FBA0008DA51 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -285,7 +285,6 @@
 		6B961A031D1836B700F23043 /* ios-750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-750x1334.png"; sourceTree = "<group>"; };
 		6B961A041D1836B700F23043 /* ios-1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-1242x2208.png"; sourceTree = "<group>"; };
 		6BA157AC1DD396A300EAD3C1 /* Lucy BETA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Lucy BETA.entitlements"; path = "iwapp/Lucy BETA.entitlements"; sourceTree = "<group>"; };
-		6BC5085A1DD339AC00E6578B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BE5B2031CFED3B800D94AB2 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		6BE5B2041CFED3B800D94AB2 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		6BE5B2051CFED3B800D94AB2 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
@@ -297,6 +296,7 @@
 		A0148FCDDD1C4E4AAB3109E3 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		C52A87BA563A42C395B76A5F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		D7779A57177D845C1D268CED /* Pods-iwapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iwapp/Pods-iwapp.release.xcconfig"; sourceTree = "<group>"; };
+		F1AE68781EAE4FBA0008DA51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6820A2E957C2C85C5B9AE50 /* Pods-iwappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iwappTests/Pods-iwappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD2D61E9A76D1B392D09C6D0 /* Pods-iwapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iwapp/Pods-iwapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -420,13 +420,13 @@
 		13B07FAE1A68108700A75B9A /* iwapp */ = {
 			isa = PBXGroup;
 			children = (
+				F1AE68781EAE4FBA0008DA51 /* GoogleService-Info.plist */,
 				6BA157AC1DD396A300EAD3C1 /* Lucy BETA.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				6BC5085A1DD339AC00E6578B /* GoogleService-Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -683,7 +683,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = V9JWVTC8N8;
+						DevelopmentTeam = 4C34FT6ABU;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -994,7 +994,7 @@
 				5AF929C4274A47A0AFDC1A90 /* Zocial.ttf in Resources */,
 				B41FC66EB05F44CF9491E3FA /* Entypo.ttf in Resources */,
 				BA7F3DAAD40D4728AF0632F8 /* FontAwesome.ttf in Resources */,
-				6BC5085B1DD339AC00E6578B /* GoogleService-Info.plist in Resources */,
+				F1AE68791EAE4FBA0008DA51 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1216,7 +1216,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iwapp/Lucy BETA.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = V9JWVTC8N8;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1236,7 +1236,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp.tm;
 				PRODUCT_NAME = "Lucy DEBUG";
 			};
 			name = Debug;
@@ -1249,7 +1249,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "iwapp/Lucy BETA.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = V9JWVTC8N8;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1269,7 +1269,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp.tm;
 				PRODUCT_NAME = Lucy;
 			};
 			name = Release;
@@ -1332,7 +1332,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "iwapp/Lucy BETA.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = V9JWVTC8N8;
+				DEVELOPMENT_TEAM = 4C34FT6ABU;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -1352,7 +1352,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innowatio.iwapp.tm;
 				PRODUCT_NAME = "Lucy BETA";
 			};
 			name = PreProd;
